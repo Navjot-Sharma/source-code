@@ -82,10 +82,7 @@ class CreateCode extends Component {
                   type="search"
                   placeholder="For eg. React, React Router"
                   aria-label="Add tags"
-                  ref={input => {
-                    console.log(input);
-                    return (this.tag = input.value);
-                  }}
+                  ref={input => (this.tag = input)}
                 />
                 <button
                   className="btn btn-outline-primary my-2 my-sm-0"
