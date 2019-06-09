@@ -1,0 +1,21 @@
+.category {
+  padding: 25px 0;
+}
+
+.category .my-textarea1 {
+  min-height: 160px !important;
+}
+
+.category .my-textarea2 {
+  min-height: 400px !important;
+}
+
+.save button {
+  width: 80px;
+  margin: 20px auto;
+}
+
+
+.tags input {
+  width: 80% !important;
+}

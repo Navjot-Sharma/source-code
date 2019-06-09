@@ -1,0 +1,32 @@
+header {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  color: #ebebeb;
+  font-size: 24px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header input {
+  width: 50% !important;
+}
+
+header a {
+  color: #ebebeb !important;
+}
+
+header a:hover,
+header div>*:hover {
+  color: #c2c2c2 !important;
+}
+
+header div>* {
+  margin: auto 5px;
+  cursor: pointer;
+}
